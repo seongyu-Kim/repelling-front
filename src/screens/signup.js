@@ -65,7 +65,7 @@ export default function SignUp({navigation}) {
           <Margin height={20} />
 
           <View style={styles.logoContainer}>
-            <Text style={styles.logoFont}>LOGO</Text>
+            <Text style={styles.logoFont}>REPELLING</Text>
           </View>
 
           <Margin height={90} />

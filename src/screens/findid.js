@@ -64,7 +64,7 @@ export default function FindId() {
           <Margin height={20} />
 
           <View style={styles.logoContainer}>
-            <Text style={styles.logoFont}>LOGO</Text>
+            <Text style={styles.logoFont}>REPELLING</Text>
           </View>
 
           <Margin height={90} />
@@ -96,7 +96,7 @@ export default function FindId() {
 
             <Margin height={10} />
 
-            {/* <TextInput style={styles.loginInput} placeholder="인증번호" /> */}
+            <TextInput style={styles.loginInput} placeholder="인증번호" />
           </View>
 
           <Margin height={30} />
@@ -109,7 +109,7 @@ export default function FindId() {
             </TouchableOpacity>
           </View>
 
-          {/* <Modal isVisible={isModalVisible}>
+          <Modal isVisible={isModalVisible}>
             <View style={styles.modalContainer}>
               <Text style={styles.modalText}>
                 회원님의 아이디는 "{foundId}" 입니다.
@@ -127,7 +127,7 @@ export default function FindId() {
                 </TouchableOpacity>
               </View>
             </View>
-          </Modal> */}
+          </Modal>
         </ScrollView>
       </SafeAreaView>
     </>

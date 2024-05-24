@@ -61,15 +61,6 @@ export default function Login({navigation}) {
 
     const savedUserId = await AsyncStorage.getItem('userId');
     const savedPassword = await AsyncStorage.getItem('userPassword');
-    // if (Id === savedUserId && password === savedPassword) {
-    //   try {
-    //     navigation.navigate('Situation');
-    //   } catch (e) {
-    //     console.error('로그인 정보를 저장하는 중 오류 발생: ', e);
-    //   }
-    // } else {
-    //   Alert.alert('오류', '아이디 또는 비밀번호가 일치하지 않습니다');
-    // }
   };
 
   return (
@@ -78,7 +69,7 @@ export default function Login({navigation}) {
         <Margin height={100} />
 
         <View style={styles.logoContainer}>
-          <Text style={styles.logoFont}>LOGO</Text>
+          <Text style={styles.logoFont}>REPELLING</Text>
         </View>
 
         <Margin height={90} />
