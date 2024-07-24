@@ -8,7 +8,7 @@
 </div>
 
 > **기술 스택**
-> - <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+> - <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> <img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=axios&logoColor=white" />
 
 > **개발 인원(역할)**
 > - FE 1/ BE 1(프론트엔드 개발)
